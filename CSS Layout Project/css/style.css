@@ -1,0 +1,35 @@
+body {
+
+  
+  color: #747474;
+  font-family: Roboto, Arial, sans-serif;
+  padding-top: 70px;
+ font-weight: 400;
+
+}
+
+select {
+  border: 0;
+  color: white;
+  text-decoration: underline;
+}
+
+option {
+  color: black;
+}
+
+.card {
+  color: #747474;
+}
+.card:hover {
+  text-decoration: none;
+  color: #747474;
+}
+/*
+dropdown-toggle::after //delete row of dropdown menu//
+*/
+.dropdown-toggle::after {
+            content: none;
+			}
+
+	
